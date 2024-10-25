@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(26, 26, 111);
+            color: white;
+            font-family: "Poppins", sans-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 80px;
+            background-color: rgb(3, 3, 69);
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        nav ul li a:hover {
+            color: rgb(153, 153, 226);
+            font-size: 1.02rem;
+        }
+
+        main hr {
+            border: 0;
+            background: rgb(9, 121, 125);
+            height: 1.2px;
+            margin: 40px 84px;
+
+        }
+
+        .left {
+            font-size: 1.4rem;
+        }
+
+        .firstSection {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 140px 0;
+        }
+
+        .firstSection>div {
+            width: 30%;
+        }
+
+        .leftSection {
+            font-size: 2rem;
+
+        }
+        .rightSection img {
+            width: 80%;
+            margin: 50px 0;
+        }
+
+        .purple {
+            color: rgb(9, 121, 125);
+
+        }
+
+        .text-gray {
+            color: gray;
+        }
+
+        #element {
+            color: rgb(9, 121, 125);
+        }
+
+        .secondSection {
+            max-width: 80vw;
+            margin: auto;
+            height: 80vh;
+        }
+
+        .secondSection h1 {
+            font-size: 1.9rem;
+        }
+
+        .secondSection .box {
+            background: white;
+            width: 85vw;
+            height: 2px;
+            margin: 56px 0;
+            display: flex;
+        }
+
+        .secondSection .vertical {
+            height: 93px;
+            width: 1px;
+            background-color: white;
+            margin: 0 100px;
+        }
+
+        .image-top {
+            width: 23px;
+            position: relative;
+            top: -32px;
+            left: -9;
+        }
+
+        .vertical-title {
+            position: relative;
+            top: 75px;
+            width: 150px;
+        }
+
+        .vertical-desc {
+            position: relative;
+            top: 86px;
+            color: gray;
+            width: 150px;
+            font-size: 9px;
+        }
+
+        footer {
+            background-color: #020233;
+           
+        }
+
+        .footer {
+            display: flex;
+            padding: 23px 122px;
+            justify-content: space-evenly;
+        }
+
+        .footer ul {
+            list-style: none;
+        }
+        .footer > div{
+            width: 223px;
+        }
+        footer .footer-rights{
+            text-align: center;
+            color: gray;
+            padding:12px 0 ;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">My Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Projects</a></li>
+                    <li><a href="/"> Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">
+                Hi,My name is <span class="purple"> Rohit Raj</span>
+                <div>And I am an Aspiring</div>
+                <span id="element"></span>
+            </div>
+            <div class="rightSection">
+                <img src="bg.png" alt="web developer coding">
+            </div>
+
+        </section>
+        <hr>
+        <section class="secondSection">
+            <span class="text-gray">What I Have Learnt So Far</span>
+            <h1>Skills</h1>
+            <div class="box">
+
+                <div class="vertical">
+                    <img class="image-top" src="java.png" alt="java png">
+                    <div class="vertical-title">
+                        Java
+                    </div>
+                    <div class="vertical-desc">
+                        I have developed a solid foundation in Java, gaining knowledge of core concepts such as
+                        object-oriented programming (OOP) principles, including inheritance, polymorphism,
+                        encapsulation, and abstraction. I've learned how to work with data structures like arrays,lists,
+                        and maps, and are comfortable with control structures (loops, conditionals).
+                        I can build methods, classes, and handle exceptions.
+                    </div>
+                </div>
+
+                <div class="vertical">
+                    <img class="image-top" src="html.png" alt="html png">
+                    <div class="vertical-title">
+                        Html
+                    </div>
+                    <div class="vertical-desc">
+                        I've gained a strong understanding of HTML, the fundamental building block of web development. I
+                        can create structured web pages using various HTML tags, including headings, paragraphs, lists,
+                        tables, and forms. I've learned how to use semantic elements like header, footer, section, and
+                        article to improve accessibility and SEO. I am also familiar with embedding images, videos, and
+                        links, as well as working with attributes to customize elements.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="css.png" alt="css png">
+                    <div class="vertical-title">
+                        CSS
+                    </div>
+                    <div class="vertical-desc">
+                        I have developed a strong foundation in CSS, understanding how to style and layout web pages. I
+                        can effectively use selectors, properties, and values to control the appearance of HTML
+                        elements. I’ve learned how to work with colors, typography, spacing (margins, padding), and box
+                        model concepts.
+                        I am familiar with layout techniques using Flexbox and Grid, and can create responsive designs
+                        using media queries. Additionally,
+                        I can apply animations, transitions, and work with pseudo-classes/elements to enhance
+                        interactivity and user experience.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="js.png" alt="js png">
+                    <div class="vertical-title">
+                        JavaScript
+                    </div>
+                    <div class="vertical-desc">
+                        I've developed a solid understanding of JavaScript, focusing on its role in adding interactivity
+                        and dynamic behavior to web pages. I am proficient in core concepts like variables, data types,
+                        functions, loops, and conditionals. I understand how to manipulate the Document Object Model
+                        (DOM) to update HTML and CSS dynamically
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="pycharm.png" alt="python png">
+                    <div class="vertical-title">
+                        Python
+                    </div>
+                    <div class="vertical-desc">
+                        I have a strong grasp of Python's core syntax and concepts, including variables, data types, and
+                        control structures like loops and conditionals. I've learned about functions, modules, and
+                        object-oriented programming (OOP) concepts such as classes and inheritance. I am proficient in
+                        using built-in data structures like lists, tuples, dictionaries, and sets.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="c.png" alt="c png">
+                    <div class="vertical-title">
+                        C
+                    </div>
+                    <div class="vertical-desc">
+                        I have developed a strong grasp of C programming, mastering essential concepts like variables,
+                        data types, operators, and control structures (if-else, loops). I am proficient in working with
+                        functions, arrays, pointers, and dynamic memory allocation.
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <h3>Rohit's Developer Portfolio</h3>
+            </div>
+            <div class="footer-second">
+                   <ul>
+                        <li>Home</li>
+                        <li>About</li>
+                        <li>Contact</li>
+                        <li>Service</li>
+                    </ul>
+                </div>
+                <div class="footer-third">
+                    <ul>
+                         <li>Home</li>
+                         <li>About</li>
+                         <li>Contact</li>
+                         <li>Service</li>
+                     </ul>
+                 </div>
+                 <div class="footer-fourth">
+                    <ul>
+                         <li>Home</li>
+                         <li>About</li>
+                         <li>Contact</li>
+                         <li>Service</li>
+                     </ul>
+                 </div>
+             </div>
+           <div class="footer-rights">
+             Copyright &#169; rohitsportfolio.com | All Rights Reserved
+         </div>
+        
+
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer', 'Java Coder', 'Web Designer'],
+            typeSpeed: 50,
+        });
+    </script>
+
+</body>
+
+</html>
